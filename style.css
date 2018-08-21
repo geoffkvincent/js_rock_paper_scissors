@@ -1,0 +1,42 @@
+.greeting {
+  text-align: center;
+  border: 3px solid blue;
+  font-family: Didot;
+  /* background-color: blue */
+}
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.buttons {
+  text-align: center;
+  border: 3px solid red;
+  padding: 20px;
+}
+
+button:hover {
+  color: red
+  
+}
+
+.player {
+  text-align: center;
+}
+
+.player_result {
+  text-align: center;
+}
+
+.computer {
+  text-align: center;
+}
+
+.computer_result {
+  text-align: center;
+}
+
+.result {
+  text-align: center;
+  border: 3px solid blue;
+}

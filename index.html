@@ -1,19 +1,13 @@
-<!-- //create header with greeting
-have three buttons: rock,paper,scissors
-after click generate random choice from array with :rock,paper,scissors
-show user choice
-show computer choice
-show result WIN, LOSE, DRAW
-user makes a choice to play again -->
-
 
 
 <html>
   <head>
+      <link href="/Users/geoffvincent/dpl/week_2/mon_8_20/rock_paper_scissor/style.css" rel="stylesheet" />
     <title>Rock, Paper, Scissor</title>
   </head>
   <body>
-    <h1> Welcome to Roshambo</h1>
+    <h1 class ="greeting"> Welcome to Roshambo</h1>
+    <div class="buttons">
     <button id="rock">
         ROCK
     </button>
@@ -24,16 +18,17 @@ user makes a choice to play again -->
         SCISSOR
     </button>
     <br />
-    <h5>player choice:</h5>
-      <div id="user"> 
+  </div>
+    <h3 class="player">PLAYER:</h3>
+      <div id="user" class="player_result"> 
         
       </div>
-    <h5>computer choice:</h5>
-      <div id="comp">
+    <h3 class="computer">COMPUTER:</h3>
+      <div id="comp" class="computer_result">
 
       </div>
+    <h1 user id="result" class="result"></h1>
     <br />
-    <!-- computer results here -->
     
     
     <script src="./main.js"></script>
